@@ -1,0 +1,54 @@
+.purple {
+    color:rgb(97,86,216);
+}
+
+.guestbook {
+    font-family: 'NeoDunggeunmo';
+    left: 10px;
+    top: 18px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    width: 520px;
+    height: 510px;
+    margin: 5px;
+}
+
+.guest {
+    margin:30px 10px;
+}
+
+.guestname {
+
+    line-height: 20px;
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.856);
+    height: 25px;
+}
+
+.guestname>span {
+    vertical-align: bottom;
+}
+
+.guestdetail{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.guestimage {
+
+    flex:1;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100px;
+    height: 150px;
+}
+
+.guestcontent {
+    flex:3;
+    padding: 20px;
+    margin-bottom: 60px;
+    font-size: 13px;
+    line-height: 20px;
+}

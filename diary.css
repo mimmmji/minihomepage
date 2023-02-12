@@ -1,0 +1,104 @@
+
+.calendar{
+    flex: 0.2;
+
+    font-family: 'NeoDunggeunmo';
+
+    margin: 15px 15px 0px 15px;
+    height: 60px;
+
+    border: 1px solid rgb(190, 190, 190);
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.today{
+    font-weight: 700;
+    color: rgb(94,148,176);
+    text-align: center;
+    line-height: 22px;
+    padding: 10px;
+    flex:1;
+
+
+}    
+
+.month{
+    line-height: 22px;
+    color:gray;
+    padding: 12px 8px ;
+    flex: 7;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.month>span{
+    width: 25px;
+}
+
+.diarymain {
+    flex: 12;
+    height: 440px;
+
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+}
+
+
+.diary-content {
+    flex:auto;
+    border: 1px solid rgb(190, 190, 190);
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.diary-content-title{
+    flex:1;
+
+
+    font-family: 'NeoDunggeunmo';
+    color: rgb(94,148,176);
+    padding: 15px 20px;
+    
+}
+
+.diary-content-detail{
+    flex:5;
+
+    font-family: 'KyoboHand';
+    text-align: center;
+    padding: 10px;
+}
+
+.secretdiary{
+    font-family: 'NeoDunggeunmo';
+    margin:auto;
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    color:white;
+}
+
+.secretdiary>a{
+    color:white;
+}
+
+.secretdiary:hover{
+    background-color: rgb(93, 207, 169);
+}
+
+.secretment{
+    vertical-align: super;
+}

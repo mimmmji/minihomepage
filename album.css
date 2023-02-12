@@ -1,0 +1,31 @@
+.albumbook {
+    font-family: 'NeoDunggeunmo';
+    left: 10px;
+    top: 18px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    width: 520px;
+    height: 510px;
+    margin: 5px;
+}
+
+.albumtitle {
+    line-height: 20px;
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.856);
+    height: 25px;
+}
+
+#album {
+    text-align: center;
+    padding: 10px 20px;
+    width: 90%;
+    height: auto;
+}
+
+.albumdetail {
+    padding: 0px 20px 5px 20px;
+    margin-bottom: 60px;
+    font-size: 12px;
+}
